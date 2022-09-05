@@ -1,0 +1,138 @@
+Input and Output statements
+----------------------------
+ Output
+  print()
+  print('Any message')
+  print(variables)
+  print(object)
+  print(format specifiers)
+	>>> print('The value of a=%d and the value of b=%f' % (a,b))
+  print(placeholders)
+	>>> print('The value of a={} and the value of b={}'.format(a,b))
+
+ Input
+  input()
+
+Flow control statements
+----------------------
+Flow control describes the order in which statements will be executed at runtime
+Three categories:
+1. Conditional statements
+2. Iterative statements
+3. Transfer statements
+
+Conditional statements
+
+1. if condition:
+	statements
+
+2. if condition:
+	statements
+   else:
+	statements
+
+3. if condition:
+	statements
+   elif condition:
+	statements
+   elif condition:
+	statements		
+   else:
+	statements
+
+Ex1:
+name=input('Enter name:')
+if name=='Sunny':
+    print('Hello Sunny Good Morning')
+
+Ex:
+name=input('Enter name:')
+if name=='Sunny':    
+    print('Hello Sunny Good Morning')
+else:
+    print('Hello Guest Good Morning')
+
+REQ: Write a python program to input a number from keyboard and check whether the number is odd or even ?
+Ans
+num=int(input('Enter a number:'))
+if num%2==0:
+    print('The entered number {} is an even number'.format(num))
+else:
+    print('The entered number {} is an odd number'.format(num))
+
+REQ: Write a python program to input a number and check whether the number is positive, negative or zero.
+Ans
+num=int(input('Enter a number:'))
+if num>0:
+    print('The entered number {} is positive'.format(num))
+elif num<0:
+    print('The entered number {} is negative'.format(num))
+else:
+    print('THe entered number is zero')
+
+Iterative statements
+If we want to execute a group of statements multiple times then we should go for iterative statements.
+Python supports 2 types of iterative statements:
+1. for loop
+2. while loop 
+
+for loop
+If we want to execute some action for every element present in some sequence then we should go for 'for loop'
+Ex:
+s='Priyanka Chopra'
+for ele in s:
+    print(ele,end=' ')
+
+REQ. Write a program to print 'Hello Good Morning' 10 times.
+Ans
+for i in range(10):
+    print('Hello Good Morning')
+
+while loop
+If we want to execute a group of statements again and again till the condition remains true, we can go for while loop
+ Syntex
+   while condition:
+	statements
+
+Ex1: Write a proram to print a series of natural numbers from 1 to 10.
+Ans
+i=1
+while i<=10:
+    print(i,end=' ')
+    i=i+1
+
+Ex1: Write a proram to print a series of even numbers between 1 to 20.
+Ans
+i=2
+while i<=20:
+    print(i,end=' ')
+    i=i+2
+
+
+
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
