@@ -1,4 +1,5 @@
 import math
+#Program to calculate Student Grades
 name=str(input('Enter student name:'))
 eng=float(input('Enter English mark:'))
 maths=float(input('Enter Maths mark:'))
